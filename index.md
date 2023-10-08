@@ -18,4 +18,10 @@ In this scenario, we are in the directory of lecture1. When ls is called without
 **cat Command**
 The cat command is used to view files and give the content of the file.
 
+![Image](https://github.com/claudiaaling/lab_report_1/blob/main/Lab%20%231%20(cat).png)
+
+In this scenario, we are in the lecture1 directory and when the cat command is called with no arguments it is infinitely waiting for a file name so it does not do anything with no arguments. When cat is called on a directory, the output will show that we are in a directory and are still waiting for a file to be called. When cat is called on a file README, it will show the output of the content within the README file.
+
+
+
 
