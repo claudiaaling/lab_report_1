@@ -4,7 +4,7 @@ Welcome to my blog! In this section, we will discuss how filesystem commands wor
 **cd Command**
 The cd command is used to change the directory of the terminal.
 
-![Image](cd).png)  
+![Image](cd.png)  
 
 In this scenario, with no arguments cd would not do anything unless a directory is called. When called on the directory of lecture 1, the directory is changed to lecture 1. An error occurs when cd is called on a file, it will not do anything because cd only works moving between directories.
 
