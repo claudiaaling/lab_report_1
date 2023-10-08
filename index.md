@@ -11,14 +11,14 @@ In this scenario, with no arguments cd would not do anything unless a directory 
 **ls Command**
 The ls command is used to list files in the directory it is in.
 
-![Image](https://github.com/claudiaaling/lab_report_1/blob/main/Lab%20%231%20(ls).png) 
+![Image](ls.png) 
 
 In this scenario, we are in the directory of lecture1. When ls is called without arguments, it lists all the files in the lecture1 directory. When ls is called on a directory, in this case, messages, it lists all the files that are in the messages directory. When called on a file, it lists the file name.
 
 **cat Command**
 The cat command is used to view files and give the content of the file.
 
-![Image](https://github.com/claudiaaling/lab_report_1/blob/main/Lab%20%231%20(cat).png)
+![Image](cat.png)
 
 In this scenario, we are in the lecture1 directory and when the cat command is called with no arguments it is infinitely waiting for a file name so it does not do anything with no arguments. An error occurs when cat is called on a directory, the output will show that we are in a directory and are still waiting for a file to be called because cat only works with files. When cat is called on a file README, it will show the output of the content within the README file.
 
