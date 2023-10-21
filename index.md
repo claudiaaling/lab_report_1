@@ -8,6 +8,15 @@ The cd command is used to change the directory of the terminal.
 
 As shown in the image, using the cd command without arguments will change the current directory to the home directory. When in the home directory and cd is called with no arguments it doesn't do anything because the current directory is the home directory. When in the lecture1 or messages directory and cd is called without commands, it will change back to the home directory. Starting from the home directory, when the cd command is called on a directory such as lecture1, the current directory is changed to the called directory (lecture1). An error occurs when cd is called on a file as it will not do anything because cd only works moving between directories.
 
+
+
+
+
+
+
+
+
+
 **ls Command**
 The ls command is used to list files and subdirectories in the current directory.
 
