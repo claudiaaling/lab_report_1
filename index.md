@@ -15,14 +15,18 @@ The ls command is used to list files and subdirectories in the current directory
 
 As shown in the image (in lecture1 directory) when the ls command is used without arguments, it lists all the files and subdirectories in the current directory. When ls is called on a directory such as messages, it lists all the files and subdirectories of that called directory. When ls is called on a file in its relative path, it will just show the file name.
 
+![Image](revisedLS2.png)
 
+However, when ls is called on a file in its absolute path, it will show the full path from the starting directory to the file name.
 
-In this scenario, we are in the directory of lecture1. When ls is called without arguments, it lists all the files in the lecture1 directory. When ls is called on a directory, in this case, messages, it lists all the files that are in the messages directory. When called on a file, it lists the file name.
+There are no errors in the ls command. Calling ls on a file will not show the content of the file because the ls command is used to show the content of directories not the content of files.
 
 **cat Command**
 The cat command is used to view files and give the content of the file.
 
 ![Image](revisedCAT.png)
+
+As shown in the image, the current directory is lecture1 and when the cat command is called with no arguments it is infinitely waiting for a file name so it does not do anything with no arguments. As it waits for user input, if you type in the terminal it will display what is inputted. 
 
 In this scenario, we are in the lecture1 directory and when the cat command is called with no arguments it is infinitely waiting for a file name so it does not do anything with no arguments. An error occurs when cat is called on a directory, the output will show that we are in a directory and are still waiting for a file to be called because cat only works with files. When cat is called on a file README, it will show the output of the content within the README file.
 
