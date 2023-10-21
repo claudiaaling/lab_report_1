@@ -24,7 +24,7 @@ There are no errors in the ls command. Calling ls on a file will not show the co
 **cat Command**
 The cat command is used to view files and give the content of the file.
 
-![Image](revisedCAT.png)
+![Image](revisedCATYA.png)
 
 As shown in the image, the current directory is lecture1 and when the cat command is called with no arguments it is infinitely waiting for a file name. As it waits for user input, if you type in the terminal it will display what is inputted. To get out of the infinite loop, the user can use the CTRL C command. An error occurs when cat is called on a directory, the output will show that we are in a directory and are still waiting for a file to be called because cat only works with files. When cat is called on a file README, it will show the output of the content within the README file.
 
